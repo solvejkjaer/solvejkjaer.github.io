@@ -4,7 +4,7 @@ var jsPsych = initJsPsych({
   message_progress_bar: ' ',
   on_finish: function() {
       jsPsych.data.get().localSave('csv',participant_id + '_changeblindness.csv'),
-      window.location = "https://youtube.com" //"https://solvejkjaer.github.io/greengram/"
+      window.location = "https://solvejkjaer.github.io/greengram/"
     }
   })
 
